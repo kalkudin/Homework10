@@ -9,13 +9,15 @@ import com.example.homework10.databinding.UserInfoItemBinding
 import com.example.homework10.databinding.UserLanguageItemBinding
 
 class UserItemAdapter(private val itemList:MutableList<UserItem>):RecyclerView.Adapter<RecyclerView.ViewHolder>(){
-    inner class UserItemViewHolder(private val binding:UserInfoItemBinding):RecyclerView.ViewHolder(binding.root){
+    inner class UserItemViewHolder(private val binding:UserInfoItemBinding):
+        RecyclerView.ViewHolder(binding.root){
         var icon = binding.itemIcon
         val arrow = binding.arrow
         val primaryText = binding.primaryText
         val secondaryText = binding.secondaryText
     }
-    inner class UserLanguageItemViewHolder(private val binding:UserLanguageItemBinding):RecyclerView.ViewHolder(binding.root){
+    inner class UserLanguageItemViewHolder(private val binding:UserLanguageItemBinding):
+        RecyclerView.ViewHolder(binding.root){
         var icon = binding.itemIcon
         val primaryText = binding.primaryText
     }
