@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             it.add(UserItem( R.drawable.wallet_icon, R.drawable.arrow_right,"Payment", "", itemType = UserItemType.NORMAL))
             it.add(UserItem( R.drawable.security_icon, R.drawable.arrow_right,"Security", "", itemType = UserItemType.NORMAL))
             it.add(UserItem( R.drawable.language_icon, R.drawable.arrow_right,"Language", "English (US)", itemType = UserItemType.NORMAL))
-            it.add(UserItem( R.drawable.night_mode_icon, R.drawable.arrow_right,"Dark Mode", "", itemType = UserItemType.CHECKBOX))
+            it.add(UserItem( R.drawable.night_mode_icon, null,"Dark Mode", "", itemType = UserItemType.CHECKBOX))
             it.add(UserItem( R.drawable.lock_icon, R.drawable.arrow_right,"Privacy", "", itemType = UserItemType.NORMAL))
             it.add(UserItem( R.drawable.info_icon, R.drawable.arrow_right,"Help Center", "", itemType = UserItemType.NORMAL))
             it.add(UserItem( R.drawable.friends_icon, R.drawable.arrow_right,"Invite Friends", "", itemType = UserItemType.NORMAL))
