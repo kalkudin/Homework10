@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework10</string>
+    <string name="_111_111_111">+111 111 111</string>
+    <string name="sample_user">Sample User</string>
+    <string name="profile">Profile</string>
+    <string name="nullable_sample_text">Nullable Sample Text</string>
+    <string name="sample_text">Sample Text</string>
+</resources>
